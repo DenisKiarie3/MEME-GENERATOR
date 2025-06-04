@@ -15,7 +15,7 @@ export default function Main() {
     }
     return(
         <main className="max-w-[600px] p-[36px] mx-auto">
-            <div className="grid grid-rows-[auto_auto] grid-cols-2 gap-[17px] mb-[17px]">
+            <div className="grid grid-rows-[auto_auto] sm:grid-cols-2 gap-[17px] mb-[17px]">
                 <label>Top Text
                     <input 
                     className="rounded-[5px] border border-[#D5D4D8] w-full sm:indent-[5px] min-h-[40px]"
